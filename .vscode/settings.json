@@ -1,0 +1,11 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",  // Or "black" if preferred
+    "editor.formatOnSave": true,
+    "python.linting.lintOnSave": true,
+    "python.formatting.blackArgs": ["--line-length=88"],         // For Black
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    }
+}
